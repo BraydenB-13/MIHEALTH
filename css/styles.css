@@ -1,0 +1,95 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Name {
+    font-size: 125%;
+    padding-left: 42px;
+    font-family: sans-serif;
+    display: flex;
+}
+
+#Mi {
+    color: #ce2121;
+}
+
+#Health {
+    color: #92c934;
+}
+
+.links {
+    padding-right: 25px;
+}
+
+.links a {
+    font-family: sans-serif;
+    font-size: 125%;
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.Body {
+    font-family: sans-serif;
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding-left: 50px;
+    background-image: url(../images/background.png);
+    overflow-x: scroll;
+}
+
+.Body h1 {
+    font-size: 350%;
+}
+
+.Body p {
+    font-size: 135%;
+    width: 275px;
+    word-wrap: break-word;
+}
+
+.Body h5 {
+    font-size: 100%;
+}
+
+.Pictures {
+    display: flex;
+}
+
+.Pictures img {
+    padding: 0px;
+    object-fit: cover;
+    height: 500px;
+    width: 280px;
+    overflow: hidden;
+}
+
+figure {
+    position: relative;
+    margin-inline-start: 8px;
+    margin-inline-end: 8px;
+}
+
+figcaption {
+    right: 0px;
+    text-align: right;
+    color: black;
+    position: absolute;
+}
+
+.Top {
+    top: 425px;
+    background-color: white;
+    padding: 10px;
+}
+
+.Bottom {
+    top: 460px;
+    background-color: #92c934;
+    width: 100px;
+    padding: 11px;
+}
